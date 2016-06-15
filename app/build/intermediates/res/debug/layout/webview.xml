@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<WebView android:id='@+id/web1'
+	    android:layout_width="fill_parent"
+	    android:layout_height="300dp"/>
+
+	
+	   
+	   <LinearLayout 
+	       android:orientation="horizontal"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content">
+	        <Button 
+	        android:id="@+id/btu1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="交互"/>
+	    <Button android:id="@+id/btu2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="android使用js"/>
+	       
+	       
+	   </LinearLayout>
+	   
+	 	<EditText 
+	        android:id="@+id/ed1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+</LinearLayout><!-- From: file:/F:/Javarequire/androidstudioproject/eclipseold/BaseComponents/AndroidWebview/app/src/main/res/layout/webview.xml -->
